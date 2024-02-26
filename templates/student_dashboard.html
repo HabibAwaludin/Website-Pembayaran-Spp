@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Navbar Pure CSS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+  <link rel="stylesheet" href="./static/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./static/style2.css">
+  <link rel="stylesheet" href="static/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="static/fontawesome-free/css/all.css">
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="static/components.css">
+</head>
+<body>
+  <div id="app">
+    <div class="main-wrapper">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        <form class="form-inline mr-auto">
+          <ul class="navbar-nav mr-3">
+            <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </form>
+        <ul class="navbar-nav navbar-right" style="
+        margin-right: 80px;">
+           <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <img alt="image" src="static/avatar/avatar-1.png" class="rounded-circle mr-1">
+            Halo <b>admin1</b> Anda adalah <b>admin</b></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-divider"></div>
+              <a href="/logout" class="dropdown-item has-icon text-danger">
+                <i class="fas fa-sign-out-alt"></i> Logout
+              </a>
+            </div>
+          </li> 
+        </ul>
+      </nav>
+      <div class="main-sidebar" tabindex="1" style="overflow: hidden; outline: none;">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a>ICB School Fees Hub</a>
+          </div>
+          <div class="sidebar-brand sidebar-brand-sm">
+            <a>HB</a>
+          </div>
+          <ul class="sidebar-menu">
+              <li class="menu-header">Dashboard</li>
+              <li>
+                <a href="/dashboard" class="nav-link"><i class="fas fa-fire"></i><span>Dashboard</span></a>
+              </li>
+              <li class="menu-header">Fitur</li>
+              <li><a class="nav-link" href="/laporan-siswa"><i class="fas fa-book"></i> <span>LAPORAN</span></a></li>
+        </ul></aside>
+      </div>
+<!-- General JS Scripts -->
+  <script src="static/bootstrap/jquery-3.3.1.min.js"></script>
+  <script src="static/bootstrap/popper.min.js"></script>
+  <script src="static/bootstrap/bootstrap.min.js"></script>
+  <script src="static/bootstrap/jquery.nicescroll.min.js"></script>
+  <script src="static/bootstrap/moment.min.js"></script>
+  <script src="static/bootstrap/stisla.js"></script>
+  <!-- Template JS File -->
+  <script src="static/bootstrap/scripts.js"></script>
+  <script src="static/bootstrap/custom.js"></script>
+
+  <!-- Page Specific JS File -->
+  <script src="static/bootstrap/page/index.js"></script>
+
+  <!-- Template JS File -->
+  <script src="static/bootstrap/scripts.js"></script>
+  <script src="static/bootstrap/custom.js"></script>
+
+  <!-- Page Specific JS File -->
+  <script src="static/bootstrap/page/index.js"></script> <!-- Main Content -->
+      <div class="main-content bg-primary" style="min-height: 543px;">
+        <section class="section">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="card card-statistic-2">
+                <div class="card-stats">
+                  <div class="card-stats-title">DATA KELAS -
+                    <div class="dropdown d-inline">
+                      <a class="font-weight-600 dropdown-toggle" data-toggle="dropdown" href="#" id="orders-month">XII Mipa</a>
+                      <ul class="dropdown-menu dropdown-menu-sm">
+                        <li class="dropdown-title">Pilih Kelas</li>
+                        <li><a href="kelas.php" class="dropdown-item active">XII Mipa 1</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="card-stats-items">
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">33</div>
+                      <div class="card-stats-item-label">Siswa</div>
+                    </div>
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">12</div>
+                      <div class="card-stats-item-label">B Lunas</div>
+                    </div>
+                    <div class="card-stats-item">
+                      <div class="card-stats-item-count">21</div>
+                      <div class="card-stats-item-label">Lunas</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-icon shadow-info bg-primary">
+                  <i class="fas fa-users"></i>
+                
+        </div></div></div></div></section>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
